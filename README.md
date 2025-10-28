@@ -9,7 +9,7 @@ Greatest of all time
 
 GOAT is an advanced AI-powered cryptocurrency trading platform that leverages multiple state-of-the-art language models to analyze market data and execute trades with precision. The system integrates six cutting-edge AI models working simultaneously for optimal trading decisions.
 
-## 🚀 Key Features
+##  Key Features
 
 ### Multi-Model AI Integration
 - **Claude Sonnet 4.5** - Advanced reasoning and market analysis
@@ -31,7 +31,7 @@ GOAT is an advanced AI-powered cryptocurrency trading platform that leverages mu
 - Adaptive leverage (5x-20x based on confidence)
 - Multi-layer stop-loss protection
 
-## 📊 Trading Signals
+## Trading Signals
 
 The platform generates five types of trading signals:
 - **LONG** - Buy signal with confidence ≥ 0.6
@@ -40,7 +40,7 @@ The platform generates five types of trading signals:
 - **WAIT** - No clear setup, stay on sidelines
 - **CLOSE** - Exit position (invalidation or low confidence)
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 - **Backend**: Python 3.9+, PHP 8.0+
 - **Frontend**: HTML5, CSS3, JavaScript (ES6+)
@@ -48,7 +48,7 @@ The platform generates five types of trading signals:
 - **APIs**: RESTful API with JSON responses
 - **AI Models**: Integration with Anthropic, OpenAI, Google, xAI, Alibaba APIs
 
-## 📋 Requirements
+## Requirements
 
 - Python 3.9 or higher
 - MySQL/MariaDB database
@@ -56,7 +56,7 @@ The platform generates five types of trading signals:
 - HTTPS enabled domain
 - Trading exchange API credentials (Binance/Aster)
 
-## 🚀 Installation
+## Installation
 
 1. **Clone the repository**
    ```bash
@@ -99,7 +99,7 @@ The platform generates five types of trading signals:
    UPDATE_INTERVAL=30
    ```
 
-## 🎯 Usage
+## Usage
 
 ### Starting the Trading Bot
 ```bash
@@ -132,7 +132,7 @@ const response = await fetch('https://api.0xgoat.ai/v1/api/analyze', {
 });
 ```
 
-## 📈 API Endpoints
+## API Endpoints
 
 - `POST /api/analyze` - Market analysis across multiple timeframes
 - `GET /api/market/{symbol}` - Current market data
@@ -141,7 +141,7 @@ const response = await fetch('https://api.0xgoat.ai/v1/api/analyze', {
 - `DELETE /api/positions/{id}` - Close position
 - `GET /api/history` - Trading history
 
-## 🔧 Configuration
+## Configuration
 
 ### Risk Management Formula
 ```
@@ -167,7 +167,7 @@ Constraint: size_usd / total_balance ≤ 0.65 (65% max exposure)
 - **60-MIN**: Strong trend continuation (8x-12x leverage)
 - **2-8H**: Major trend plays (5x-10x leverage)
 
-## 📊 Monitoring & Logs
+## Monitoring & Logs
 
 - Real-time position monitoring
 - P&L tracking across all positions
@@ -175,7 +175,7 @@ Constraint: size_usd / total_balance ≤ 0.65 (65% max exposure)
 - AI model performance metrics
 - System health monitoring
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
@@ -183,22 +183,22 @@ Constraint: size_usd / total_balance ≤ 0.65 (65% max exposure)
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📝 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## ⚠️ Disclaimer
+## Disclaimer
 
 This software is for educational and research purposes only. Cryptocurrency trading involves substantial risk of loss and is not suitable for every investor. Past performance does not guarantee future results. Always do your own research and consider your risk tolerance before trading.
 
-## 📞 Support
+## Support
 
 - **Documentation**: [Full Documentation](https://0xgoat.ai/docs)
 - **API Reference**: [API Docs](https://0xgoat.ai/api)
 - **Community**: [X (Twitter)](https://x.com/_0xGOAT_)
 - **GitHub Issues**: [Report Issues](https://github.com/0xgoatAI/goat/issues)
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - AI Model providers: Anthropic, OpenAI, Google, xAI, Alibaba
 - Trading data providers and exchanges
