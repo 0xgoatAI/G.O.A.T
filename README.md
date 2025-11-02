@@ -207,3 +207,4 @@ This software is for educational and research purposes only. Cryptocurrency trad
 ---
 
 **Built with ❤️ for the crypto trading community**
+
