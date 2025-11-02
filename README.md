@@ -54,7 +54,7 @@ The platform generates five types of trading signals:
 - MySQL/MariaDB database
 - API keys for AI model providers
 - HTTPS enabled domain
-- Trading exchange API credentials (Binance/Aster)
+- Trading exchange API credentials (Solana/Raydium)
 
 ## Installation
 
@@ -93,8 +93,8 @@ The platform generates five types of trading signals:
    ANTHROPIC_VERSION="2023-06-01"
 
    # Trading Configuration
-   BINANCE_API_KEY="your_binance_key"
-   BINANCE_API_SECRET="your_binance_secret"
+   SOLANA_RPC_URL="https://api.mainnet-beta.solana.com"
+   SOLANA_WALLET_PRIVATE_KEY="your_private_key"
    MAX_POSITION_EXPOSURE=0.65
    UPDATE_INTERVAL=30
    ```
@@ -207,4 +207,3 @@ This software is for educational and research purposes only. Cryptocurrency trad
 ---
 
 **Built with ❤️ for the crypto trading community**
-
